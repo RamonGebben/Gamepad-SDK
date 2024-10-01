@@ -1,12 +1,17 @@
 {
   "name": "@pindakaasman/gamepad-sdk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple SDK to integrate with Gamepads",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Ramon Gebben <ramon@ra-ge.net>",
-  "keywords": ["gamepad", "sdk", "game", "input"],
+  "keywords": [
+    "gamepad",
+    "sdk",
+    "game",
+    "input"
+  ],
   "license": "ISC"
 }

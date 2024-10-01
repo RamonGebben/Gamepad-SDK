@@ -101,6 +101,71 @@ The Gamepad API is still an experimental feature in some browsers. Ensure that y
 
 This SDK is licensed under the [ISC License](./LICENSE).
 
+## Development
+
+If you'd like to contribute to the project or work on it locally, follow these instructions to set up your development environment:
+
+### Prerequisites
+
+Ensure that you have the following installed:
+- [Node.js](https://nodejs.org/) (v12 or higher recommended)
+- [npm](https://www.npmjs.com/)
+
+### Setting Up the Project
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/gamepad-sdk.git
+   cd gamepad-sdk
+   ```
+
+2. **Install dependencies**:
+   After cloning the repo, run the following command to install all project dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Code Locally
+
+You can start developing the SDK locally by editing the source code directly in the repository. If you're adding new features or fixing bugs, ensure everything works as expected.
+
+### Running Tests
+
+If you add tests to the project, you can run them using:
+
+```bash
+npm test
+```
+
+### Versioning and Publishing
+
+We use [npm's versioning](https://docs.npmjs.com/about-semantic-versioning) to manage the package versions. To bump the version of the package and publish to NPM:
+
+1. **Bump the version**:
+   - For a patch version:
+     ```bash
+     npm version patch
+     ```
+   - For a minor version:
+     ```bash
+     npm version minor
+     ```
+   - For a major version:
+     ```bash
+     npm version major
+     ```
+
+2. **Publish to NPM** (requires NPM authentication):
+   ```bash
+   npm publish
+   ```
+
+### Automatic Publishing with GitHub Actions
+
+This repository is configured to automatically publish to NPM whenever changes are pushed to the `main` branch. The GitHub Actions workflow handles the build, test, and publish process.
+
+For more details, see the `.github/workflows/npm-publish.yml` file.
+
 ---
 
-Happy gaming!
+Feel free to fork this repository, make your changes, and submit a pull request. Contributions are always welcome!

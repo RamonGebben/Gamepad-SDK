@@ -1,6 +1,6 @@
 {
   "name": "@pindakaasman/gamepad-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple SDK to integrate with Gamepads",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

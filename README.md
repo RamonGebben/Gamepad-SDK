@@ -15,7 +15,7 @@ A simple SDK for handling gamepad input in the browser using the `navigator.Game
 You can install the SDK via NPM:
 
 ```bash
-npm install gamepad-sdk
+npm install @pindakaasman/gamepad-sdk
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install gamepad-sdk
 Here’s a basic example of how to use the Gamepad SDK in your project:
 
 ```javascript
-const GamepadSDK = require('gamepad-sdk');
+const GamepadSDK = require('@pindakaasman/gamepad-sdk');
 
 // Initialize the SDK
 const myGamepad = new GamepadSDK();
@@ -115,8 +115,8 @@ Ensure that you have the following installed:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/gamepad-sdk.git
-   cd gamepad-sdk
+   git clone git@github.com:RamonGebben/Gamepad-SDK.git
+   cd Gamepad-SDK
    ```
 
 2. **Install dependencies**:
